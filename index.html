@@ -6,29 +6,30 @@
 	<title></title>
 </head>
 <body>
-	<embed src="Menu - 376.pdf" width="100%"/>
+	<object src="Menu.pdf" type="application/pdf" width="100%" height="100%"/>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyArIMqrKkd3Ve5T8aj4zchxUMGf5-qH07w",
+      authDomain: "ubar-23266.firebaseapp.com",
+      projectId: "ubar-23266",
+      storageBucket: "ubar-23266.appspot.com",
+      messagingSenderId: "843191228437",
+      appId: "1:843191228437:web:61fa98ee73527cd1f6961c",
+      measurementId: "G-00SH9QJK5T"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyArIMqrKkd3Ve5T8aj4zchxUMGf5-qH07w",
-    authDomain: "ubar-23266.firebaseapp.com",
-    projectId: "ubar-23266",
-    storageBucket: "ubar-23266.appspot.com",
-    messagingSenderId: "843191228437",
-    appId: "1:843191228437:web:61fa98ee73527cd1f6961c",
-    measurementId: "G-00SH9QJK5T"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
 </html>
